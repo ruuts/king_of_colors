@@ -69,7 +69,7 @@ class App extends Component {
             { active ? this.state.timer : TIME_PER_TURN }
           </div>
           <p className="faded">seconden</p>
-          <button className="btn btn--transparent mt-2">
+          <button className="btn btn--transparent mt-1">
             Ik heb gezet!
           </button>
         </div>
@@ -133,13 +133,17 @@ class App extends Component {
                 <div className="dialog__icon">
                   😭
                 </div>
-                Helaas, je hebt te lang gedaan over je beurt en daarom heb jij verloren.
+                <div className="mt-1">
+                  Helaas, je hebt te lang gedaan over je beurt en daarom heb jij verloren.
+                </div>
               </div>
               <div className="dialog__section dialog__section--success">
                 <div className="dialog__icon">
                   😎
                 </div>
-                Nice! je tegenstander heeft te lang gedaan over zijn beurt en daarom heb jij gewonnen!
+                <div className="mt-1">
+                  Nice! je tegenstander heeft te lang gedaan over zijn beurt en daarom heb jij gewonnen!
+                </div>
               </div>
             </div>
             <center>
