@@ -8,60 +8,51 @@ class App extends Component {
     super(props)
 
     this.state = {
-      timer_top: 60,
-      timer_top_id: null,
-      timer_bottom: 60,
-      timer_bottom_id: null
+      timer_active: null,
+      timer_interval: null,
+      timer_count: 60
     }
   }
 
-  countDownTop = () => {
+  countDown = () => {
     this.setState({
-      timer_top: this.state.timer_top - 1
+      timer_count: this.state.timer_count - 1
     });
   };
 
-  countDownBottom = () => {
+  setTimer = (timer) => {
+    window.clearInterval(this.state.timer_interval);
     this.setState({
-      timer_bottom: this.state.timer_bottom - 1
+      timer_active: timer,
+      timer_interval: window.setInterval(this.countDown, 1000),
+      timer_count: 60
     });
   };
 
-  resetTimers = () => {
-    window.clearInterval(this.state.timer_top_id);
-    window.clearInterval(this.state.timer_bottom_id);
-    this.setState({
-      timer_top: 60,
-      timer_bottom: 60
-    });
-  };
+  timerCount = (timer) => {
+    return (this.state.timer_active == timer ? this.state.timer_count : 60)
+  }
+
+  timerClassName = (timer) => {
+    return (this.state.timer_active == timer ? 'timer--active' : '')
+  }
 
   handleClickTimerTop = () => {
-    this.resetTimers();
-    this.setState({
-      timer_top_id: window.setInterval(this.countDownTop, 1000)
-    })
+    this.setTimer('bottom');
   };
 
   handleClickTimerBottom = () => {
-    this.resetTimers();
-    this.setState({
-      timer_bottom_id: window.setInterval(this.countDownBottom, 1000)
-    })
+    this.setTimer('top');
   };
 
   render() {
     return (
       <div className="timers">
-        <div className="timer timer--top" onClick={this.handleClickTimerTop}>
-          {
-            this.state.timer_top
-          }
+        <div className={ "timer timer--top " + this.timerClassName('top')} onClick={ this.handleClickTimerTop }>
+          { this.timerCount('top') }
         </div>
-        <div className="timer timer--bottom" onClick={this.handleClickTimerBottom}>
-          {
-            this.state.timer_bottom
-          }
+        <div className={ "timer timer--bottom " + this.timerClassName('bottom')} onClick={ this.handleClickTimerBottom }>
+          { this.timerCount('bottom') }
         </div>
       </div>
     );

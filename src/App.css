@@ -19,15 +19,17 @@ html,body {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
+
+  opacity: 0.3;
+  color: white;
+  background: rgb(242, 111, 33); /* orange */
+  transition: opacity 0.5s;
+}
+
+.timer--active {
+  opacity: 1;
 }
 
 .timer--top {
-  background: black;
-  color: white;
   transform: rotate(180deg);
-}
-
-.timer--bottom {
-  background: white;
-  color: black;
 }
