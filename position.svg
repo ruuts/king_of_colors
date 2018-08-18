@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="416px" viewBox="0 0 448 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>position</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-17" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-19" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-21" x="0" y="0" width="24" height="24" rx="2.4"></rect>
+        <filter x="-16.7%" y="-25.0%" width="141.7%" height="141.7%" filterUnits="objectBoundingBox" id="filter-22">
+            <feOffset dx="1" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280938632 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="position" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="board" transform="translate(96.000000, 80.000000)" fill="#D8D8D8">
+            <g id="Rectangle">
+                <rect x="0" y="0" width="32" height="32"></rect>
+                <rect x="64" y="0" width="32" height="32"></rect>
+                <rect x="128" y="0" width="32" height="32"></rect>
+                <rect x="192" y="0" width="32" height="32"></rect>
+                <rect x="32" y="32" width="32" height="32"></rect>
+                <rect x="96" y="32" width="32" height="32"></rect>
+                <rect x="160" y="32" width="32" height="32"></rect>
+                <rect x="224" y="32" width="32" height="32"></rect>
+                <rect x="0" y="64" width="32" height="32"></rect>
+                <rect x="64" y="64" width="32" height="32"></rect>
+                <rect x="128" y="64" width="32" height="32"></rect>
+                <rect x="192" y="64" width="32" height="32"></rect>
+                <rect x="32" y="96" width="32" height="32"></rect>
+                <rect x="96" y="96" width="32" height="32"></rect>
+                <rect x="160" y="96" width="32" height="32"></rect>
+                <rect x="224" y="96" width="32" height="32"></rect>
+                <rect x="0" y="128" width="32" height="32"></rect>
+                <rect x="64" y="128" width="32" height="32"></rect>
+                <rect x="128" y="128" width="32" height="32"></rect>
+                <rect x="192" y="128" width="32" height="32"></rect>
+                <rect x="32" y="160" width="32" height="32"></rect>
+                <rect x="96" y="160" width="32" height="32"></rect>
+                <rect x="160" y="160" width="32" height="32"></rect>
+                <rect x="224" y="160" width="32" height="32"></rect>
+                <rect x="0" y="192" width="32" height="32"></rect>
+                <rect x="64" y="192" width="32" height="32"></rect>
+                <rect x="128" y="192" width="32" height="32"></rect>
+                <rect x="192" y="192" width="32" height="32"></rect>
+                <rect x="32" y="224" width="32" height="32"></rect>
+                <rect x="96" y="224" width="32" height="32"></rect>
+                <rect x="160" y="224" width="32" height="32"></rect>
+                <rect x="224" y="224" width="32" height="32"></rect>
+            </g>
+        </g>
+        <rect id="Rectangle" fill="#000000" x="32" y="176" width="32" height="64" rx="2.4"></rect>
+        <g id="person" transform="translate(183.200000, 368.000000)" fill="#FFF1DD" stroke="#D6BF9E" stroke-width="1.6">
+            <rect id="Path" x="0" y="16.8" width="82.4" height="30.4" rx="4.8"></rect>
+            <circle id="Oval" cx="41.2" cy="21.2" r="21.2"></circle>
+        </g>
+        <g id="person" transform="translate(224.400000, 24.400000) scale(1, -1) translate(-224.400000, -24.400000) translate(183.200000, 0.800000)" fill="#FFF1DD" stroke="#D6BF9E" stroke-width="1.6">
+            <rect id="Path" x="0" y="16.8" width="82.4" height="30.4" rx="4.8"></rect>
+            <circle id="Oval" cx="41.2" cy="21.2" r="21.2"></circle>
+        </g>
+        <g id="Group" transform="translate(99.200000, 111.200000)">
+            <g id="dice-red" transform="translate(13.600000, 48.800000) rotate(-4.000000) translate(-13.600000, -48.800000) translate(1.600000, 36.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-red" transform="translate(140.000000, 112.800000) rotate(-3.000000) translate(-140.000000, -112.800000) translate(128.000000, 100.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-red" transform="translate(236.800000, 16.800000) rotate(10.000000) translate(-236.800000, -16.800000) translate(224.800000, 4.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-blue" transform="translate(204.000000, 113.600000) rotate(15.000000) translate(-204.000000, -113.600000) translate(192.000000, 101.600000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#04FFE5" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="16" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-blue" transform="translate(96.000000, 132.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#04FFE5" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="16" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-green" transform="translate(77.600000, 16.800000) rotate(30.000000) translate(-77.600000, -16.800000) translate(65.600000, 4.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-green" transform="translate(76.800000, 80.800000) rotate(2.000000) translate(-76.800000, -80.800000) translate(64.800000, 68.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="8" r="2.4"></circle>
+                </g>
+            </g>
+        </g>
+        <g id="group" transform="translate(366.400000, 179.200000)">
+            <g id="dice-red" transform="translate(13.600000, 12.800000) rotate(2.000000) translate(-13.600000, -12.800000) translate(1.600000, 0.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#FF2525" cx="12" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-blue" transform="translate(45.600000, 31.200000) rotate(-5.000000) translate(-45.600000, -31.200000) translate(33.600000, 19.200000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#04FFE5" cx="12" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#04FFE5" cx="16" cy="16.8" r="2.4"></circle>
+                </g>
+            </g>
+            <g id="dice-green" transform="translate(13.600000, 44.800000) rotate(5.000000) translate(-13.600000, -44.800000) translate(1.600000, 32.800000)">
+                <g>
+                    <g id="Rectangle-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    </g>
+                    <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="16.8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="8" cy="8" r="2.4"></circle>
+                    <circle id="Oval-2" fill="#6CFF04" cx="16" cy="8" r="2.4"></circle>
+                </g>
+            </g>
+        </g>
+        <g id="dice-blue" transform="translate(304.000000, 160.000000) rotate(-5.000000) translate(-304.000000, -160.000000) translate(292.000000, 148.000000)">
+            <g>
+                <g id="Rectangle-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                </g>
+                <g id="dots" transform="translate(9.600000, 5.600000)"></g>
+                <circle id="Oval-2" fill="#04FFE5" cx="12" cy="8" r="2.4"></circle>
+                <circle id="Oval-2" fill="#04FFE5" cx="8" cy="16.8" r="2.4"></circle>
+                <circle id="Oval-2" fill="#04FFE5" cx="16" cy="16.8" r="2.4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
