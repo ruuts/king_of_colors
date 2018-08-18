@@ -79,11 +79,12 @@ class App extends Component {
           <div className="dialog">
             <div className="dialog__section">
               <div className="dialog__icon">
-                <img src="./logo.png" width="48" height="48" />
+                <img src="./logo.png" width="48" />
               </div>
               <p>
-                Welkom bij King of Colors!
-                Ik neem aan dat je het bordspel voor je hebt liggen.
+                <center>
+                  Welkom bij King of Colors!
+                </center>
               </p>
 
               <img src="./position.png" style={{ width: '100%' }} />
@@ -97,12 +98,12 @@ class App extends Component {
 
               <div className="flex">
                 <button className="btn" onClick= { this.handleStart.bind(this, 'top') }>
-                  ⬆ 
+                  ↑
                   <br />
                   Overkant
                 </button>
                 <button className="btn ml-auto" onClick= { this.handleStart.bind(this, 'bottom') }>
-                  ⬇ 
+                  ↓
                   <br />
                   Deze kant
                 </button>
