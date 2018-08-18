@@ -12,6 +12,7 @@ class App extends Component {
     this.state = {
       side: null,
       interval: null,
+      turns: 0,
       timer: TIME_PER_TURN
     }
   }
@@ -27,6 +28,7 @@ class App extends Component {
     this.setState({
       side: side,
       interval: window.setInterval(this.countDown, 1000),
+      turns: this.state.turns + 1,
       timer: TIME_PER_TURN
     });
   };
@@ -59,11 +61,14 @@ class App extends Component {
     return (
       <div className={ html_class } onClick={ this.handleTimerClick.bind(this, side) }>
         <div>
-          <p>nog</p>
+          <div className="timer__turn-counter faded">
+            beurt: { Math.ceil(this.state.turns / 2) }
+          </div>
+          <p className="faded">nog</p>
           <div className="timer__count">
             { active ? this.state.timer : TIME_PER_TURN }
           </div>
-          <p>seconden</p>
+          <p className="faded">seconden</p>
           <button className="btn btn--transparent mt-2">
             Ik heb gezet!
           </button>

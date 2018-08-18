@@ -25,6 +25,10 @@ body {
   transform: rotate(180deg) !important;
 }
 
+.faded {
+  opacity: 0.5 !important;
+}
+
 .flex {
   display: flex !important;
 }
@@ -77,6 +81,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
 
   opacity: 0.3;
   color: white;
@@ -91,6 +96,12 @@ body {
 
 .timer--active {
   opacity: 1;
+}
+
+.timer__turn-counter {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
 }
 
 .dialog {
