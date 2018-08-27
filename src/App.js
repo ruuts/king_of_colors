@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const TIME_PER_TURN = 60
+const TIME_PER_LEVEL = 10
 
 class App extends Component {
 
@@ -13,8 +13,16 @@ class App extends Component {
       side: null,
       interval: null,
       turns: 0,
-      timer: TIME_PER_TURN
+      timer: null,
+      level: {
+        top: 6,
+        bottom: 6
+      }
     }
+  }
+
+  timeForSide = (side) => {
+    return this.state.level[side] * TIME_PER_LEVEL
   }
 
   countDown = () => {
@@ -29,7 +37,7 @@ class App extends Component {
       side: side,
       interval: window.setInterval(this.countDown, 1000),
       turns: this.state.turns + 1,
-      timer: TIME_PER_TURN
+      timer: this.timeForSide(side)
     });
   };
 
@@ -44,8 +52,7 @@ class App extends Component {
     window.clearInterval(this.state.interval);
     this.setState({
       side: null,
-      interval: null,
-      timer: TIME_PER_TURN
+      interval: null
     })
   }
 
@@ -66,6 +73,23 @@ class App extends Component {
     this.setTimer(side)
   }
 
+  handleRadioSelect = (event) => {
+    const newState = { level: this.state.level }
+    newState.level[event.target.name] = event.target.value
+    this.setState(newState);
+  }
+
+  radioButton = (side, level) => {
+    const id = side + '-level-' + level;
+    const checked = this.state.level[side] == level;
+    return (
+      <div class="flex-1">
+        <input type="radio" id={ id } name={ side } value={ level } checked={ checked } onChange={ this.handleRadioSelect } />
+        <label for={ id }>{ level }</label>
+      </div>
+    )
+  }
+
   timer = (side) => {
     var active = this.state.side == side
     var html_class = "timer"
@@ -82,7 +106,7 @@ class App extends Component {
           </div>
           <p className="faded">nog</p>
           <div className="timer__count">
-            { active ? this.state.timer : TIME_PER_TURN }
+            { active ? this.state.timer : this.timeForSide(side) }
           </div>
           <p className="faded">seconden</p>
           <button className="btn btn--transparent mt-1" onClick={ this.handleTimerClick.bind(this, side) }>
@@ -114,6 +138,28 @@ class App extends Component {
                 Belangrijk is dat je tegenover elkaar zit.
                 Leg je mobiel naast het bord neer.
               </p>
+
+              ↑ Niveau van de overkant
+              <div className="flex">
+                { this.radioButton('top', 1) }
+                { this.radioButton('top', 2) }
+                { this.radioButton('top', 3) }
+                { this.radioButton('top', 4) }
+                { this.radioButton('top', 5) }
+                { this.radioButton('top', 6) }
+              </div>
+
+              <br />
+
+              ↓ Jouw niveau
+              <div className="flex">
+                { this.radioButton('bottom', 1) }
+                { this.radioButton('bottom', 2) }
+                { this.radioButton('bottom', 3) }
+                { this.radioButton('bottom', 4) }
+                { this.radioButton('bottom', 5) }
+                { this.radioButton('bottom', 6) }
+              </div>
 
               <p>Wie begint er?</p>
 

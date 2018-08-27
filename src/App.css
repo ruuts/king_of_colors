@@ -33,6 +33,10 @@ body {
   display: flex !important;
 }
 
+.flex-1 {
+  flex: 1 !important;
+}
+
 .mt-1 {
   margin-top: 1rem !important;
 }
