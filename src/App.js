@@ -49,6 +49,19 @@ class App extends Component {
     })
   }
 
+  handlePause = () => {
+    if(this.state.interval == null)  {
+      this.setState({
+        interval: window.setInterval(this.countDown, 1000)
+      });
+    } else {
+      window.clearInterval(this.state.interval);
+      this.setState({
+        interval: null
+      });
+    }
+  }
+
   handleStart = (side) => {
     this.setTimer(side)
   }
@@ -59,17 +72,20 @@ class App extends Component {
     if (side == 'top') html_class += " rotated"
     if (active)        html_class += " timer--active"
     return (
-      <div className={ html_class } onClick={ this.handleTimerClick.bind(this, side) }>
+      <div className={ html_class }>
         <div>
           <div className="timer__turn-counter faded">
             beurt: { Math.ceil(this.state.turns / 2) }
+          </div>
+          <div className="timer__pause btn btn--transparent btn--small" onClick={ this.handlePause }>
+            { this.state.interval == null ? '▶ hervat' : '▌▌ pauzeer' }
           </div>
           <p className="faded">nog</p>
           <div className="timer__count">
             { active ? this.state.timer : TIME_PER_TURN }
           </div>
           <p className="faded">seconden</p>
-          <button className="btn btn--transparent mt-1">
+          <button className="btn btn--transparent mt-1" onClick={ this.handleTimerClick.bind(this, side) }>
             Ik heb gezet!
           </button>
         </div>
